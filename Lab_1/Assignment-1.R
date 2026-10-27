@@ -1,5 +1,5 @@
 tryCatch({
-  air_data <- read.csv("C:\\Users\\YASH\\Downloads\\beijing+multi+site+air+quality+data\\PRSA2017_Data_20130301-20170228\\PRSA_Data_20130301-20170228\\PRSA_Data_Aotizhongxin_20130301-20170228.csv")
+  air_data <- read.csv("C:\\USERS\\KUNAL\\DOWNLOADS\\Assignment_1\\Assignment1\\PRSA_Data_Aotizhongxin_20130301-20170228.csv")
   print("--- First six records ---")
   print(head(air_data))
   
@@ -156,5 +156,5 @@ barplot(plot_data,
         args.legend = list(x = "topright"))
 
 
-write.csv(air_data, "C:\\Users\\YASH\\Downloads\\cleaned_air_quality_data.csv", row.names = FALSE)
+write.csv(air_data, "C:\\USERS\\KUNAL\\DOWNLOADS\\Assignment_1\\Assignment1\\cleaned_air_quality_data!.csv", row.names = FALSE)
 cat("--- Task 10: Dataset exported successfully! ---\n")
